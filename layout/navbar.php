@@ -24,6 +24,7 @@ require 'functions.php';
       <div class="navbar-nav">
         <a class="nav-link" href="index.php"><i class="fa-solid fa-house me-2"></i>Home</a>
         <a class="nav-link" href="keranjang.php"><i class="fa-solid fa-cart-shopping me-2"></i>Keranjang</a>
+        <a class="nav-link" href="dashboard.php">Riwayat</a>
         <?php if (isset($_SESSION["username"])) : ?>
             <a class="nav-link" href="#"><?= $_SESSION["nama_lengkap"];?></a>
             <a class="nav-link" href="logout.php">logout</a>
